@@ -1,0 +1,27 @@
+
+.main_buttons{
+    margin-top: 25px;
+    display: flex;
+    gap: 25px
+}
+
+
+.btn__staff{
+    width: 150px;
+    height: 39px;
+    top: 86px;
+    left: 208px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 5px;
+    border: 2px solid #FFFFFF;
+    background-color: #3D5A80;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.btn__staff.active{
+    background-color: #F8F9FA;
+    color: black;
+}
